@@ -16,6 +16,7 @@
       "pulseaudio",
       "backlight",
       "network",
+      "custom/power"
       // "bluetooth",
       "battery"
     ],
@@ -69,6 +70,11 @@
       "tooltip": false,
       "on-click": "~/.config/waybar/scripts/toggle-trans.sh",
       "format-alt": " "
+    },
+    "custom/power": {
+      "format": " ⏻ ",
+      "tooltip": false,
+      "on-click": "wlogout --protocol layer-shell"
     },
     "cpu": {
       "interval": 1,
