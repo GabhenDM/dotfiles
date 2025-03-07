@@ -16,7 +16,7 @@
       "pulseaudio",
       "backlight",
       "network",
-      "custom/power"
+      "custom/power",
       // "bluetooth",
       "battery"
     ],
